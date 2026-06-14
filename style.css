@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#1b1b1b;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#f4b400;
+}
+
+.logo span{
+    display:block;
+    font-size:14px;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#f4b400;
+}
+
+.hero{
+    height:90vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:65px;
+}
+
+.hero h2{
+    font-size:35px;
+    color:#f4b400;
+    margin:20px 0;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:800px;
+    margin:auto;
+}
+
+button{
+    margin-top:25px;
+    padding:15px 35px;
+    border:none;
+    background:#f4b400;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#d89d00;
+}
+
+.section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.section h2{
+    margin-bottom:20px;
+    color:#2e7d32;
+    font-size:40px;
+}
+
+.cards{
+    padding:80px 10%;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.verde{
+    background:#2e7d32;
+    color:white;
+}
+
+.verde h2{
+    color:white;
+}
+
+.numeros{
+    background:#111;
+
+    color:white;
+
+    display:flex;
+    justify-content:space-around;
+
+    padding:60px;
+    flex-wrap:wrap;
+}
+
+.numeros h2{
+    font-size:50px;
+    color:#f4b400;
+}
+
+footer{
+    background:#1b1b1b;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
